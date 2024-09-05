@@ -1,13 +1,16 @@
 {
-	"folders": [
-		{
-			"path": "vendor"
-		},
-		{
-			"path": "images"
-		},
-		{
-			"path": "pages"
-		}
-	]
+  "folders": [
+    {
+      "path": "vendor"
+    },
+    {
+      "path": "images"
+    },
+    {
+      "path": "pages"
+    },
+    {
+      "path": "blocks"
+    }
+  ]
 }
