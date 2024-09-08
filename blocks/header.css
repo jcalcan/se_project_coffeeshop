@@ -23,8 +23,6 @@
   font-family: "Noto Serif", Times, serif;
   font-style: italic;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
   color: #3f96f3;
 }
 
@@ -49,15 +47,15 @@
   font-family: "Noto Serif", Times, serif;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 28px;
   margin-left: 80px;
+  z-index: 2;
 }
 
 .header__footer {
   box-sizing: border-box;
   display: flex;
   margin-top: auto;
-  align-items: center;
+  align-items: end;
   width: 100%;
   justify-content: space-between;
   font-family: "Inter", Arial, sans-serif;
@@ -67,16 +65,14 @@
   font-weight: 500;
   color: #6f6f6f;
 }
-.header__footer-address {
-  margin-top: auto;
+.header__paragraph {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
   padding: 0;
   margin: 0;
-}
-
-.header__footer-hours {
   display: flex;
   flex-direction: column;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
